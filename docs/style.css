@@ -8,7 +8,7 @@
 
 body{
     background-color: #11224d;
-    color: #ddd;
+    color: #eee;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -46,6 +46,29 @@ h1, h3{
 .wrapper div{
     width: 100%;
     max-width: 1100px;
+    margin-bottom: 1em;
+}
+
+.wrapper div h2{
+    font-size: 2em;
+    border-bottom: 2px solid #eee;
+}
+
+#tecnologias div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 1em 0;
+}
+
+#tecnologias div img{
+    width: 7em;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+#tecnologias div img:hover{
+    transform: scale(1.1);
 }
 
 @keyframes glow{
