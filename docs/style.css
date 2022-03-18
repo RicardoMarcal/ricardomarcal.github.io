@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: #11224d;
+    background-color: #051336;
     color: #eee;
     font-family: 'Montserrat', sans-serif;
 }
@@ -23,8 +23,8 @@ h1{
     font-family: 'Sacramento', sans-serif;
     font-weight: normal;
     color: #fff;
-    animation: 1500ms ease-out infinite alternate glow;
     line-height: 1.5em;
+    margin-top: 0.4em;
 }
 
 h3{
@@ -33,7 +33,13 @@ h3{
 }
 
 h1, h3{
-    animation: 1500ms ease-out infinite alternate glow;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #8af,
+      0 0 42px #8af,
+      0 0 70px #abf;
+    /*animation: 2500ms ease-out infinite alternate glow;*/
 }
 
 .wrapper{
@@ -45,7 +51,7 @@ h1, h3{
 
 .wrapper div{
     width: 100%;
-    max-width: 1100px;
+    max-width: 800px;
     margin-bottom: 1em;
 }
 
@@ -54,22 +60,30 @@ h1, h3{
     border-bottom: 2px solid #eee;
 }
 
-#tecnologias div{
+#sobre p{
+    font-size: 1.15em;
+    padding: 1em;
+}
+
+#habilidades div{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 1em 0;
 }
 
-#tecnologias div img{
+#habilidades div img{
     width: 7em;
     transition: 300ms;
     cursor: pointer;
 }
 
-#tecnologias div img:hover{
+#habilidades div img:hover{
     transform: scale(1.1);
 }
+
+/*
+temporarily disabled due to performance issues
 
 @keyframes glow{
     from {
@@ -87,3 +101,4 @@ h1, h3{
           0 0 70px #abf;
     }
 }
+*/
