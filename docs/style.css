@@ -6,6 +6,13 @@
     box-sizing: border-box;
 }
 
+.typescript{text-shadow: 0 0 3px #0066ee, 0 0 5px #0066ee; color:#c8e1ff;}
+.elixir{text-shadow: 0 0 3px #9052c7, 0 0 5px #9052c7; color:#e0bdff;}
+.next{text-shadow: 0 0 3px #eee, 0 0 5px #eee; color:#ddd;}
+.nuxt{text-shadow: 0 0 3px #00ff48, 0 0 5px #00ff48; color:#bafecc;}
+.phoenix{text-shadow: 0 0 3px #e57f02, 0 0 5px #e57f02; color:#ffdbb0;}
+
+
 body{
     background-color: #051336;
     color: #eee;
