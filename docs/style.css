@@ -94,6 +94,10 @@ h1, h3{
     transform: scale(1.1);
 }
 
+#projetos div{
+    gap: 2rem
+}
+
 .card{
     width: 15rem;
     background-color: #115;
